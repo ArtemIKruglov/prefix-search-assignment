@@ -11000,4 +11000,37 @@
     <price currency="RUB">103.07</price>
     <image_url>https://example.com/p/P1000.jpg</image_url>
   </product>
+  <product id="P1001">
+    <name>Леденцы ментоловые «Halls» 35г</name>
+    <category>Кондитерские изделия</category>
+    <brand>Halls</brand>
+    <weight unit="g">35</weight>
+    <package_size>24</package_size>
+    <keywords>холс halls леденцы menthol lozenges throat</keywords>
+    <description>Ментоловые леденцы бренда Halls в категории кондитерские изделия.</description>
+    <price currency="RUB">79.90</price>
+    <image_url>https://example.com/p/P1001.jpg</image_url>
+  </product>
+  <product id="P1002">
+    <name>Подгузники ночные «BabySoft Night» 64шт</name>
+    <category>Детские товары</category>
+    <brand>BabySoft</brand>
+    <weight unit="pcs">64</weight>
+    <package_size>4</package_size>
+    <keywords>подгузники diapers diaper night diap night babys soft ночные</keywords>
+    <description>Ночные подгузники бренда BabySoft с англоязычными запросами diap night для категории детские товары.</description>
+    <price currency="RUB">812.40</price>
+    <image_url>https://example.com/p/P1002.jpg</image_url>
+  </product>
+  <product id="P1003">
+    <name>Чайный сервиз фарфоровый «TeaArt» 12пр</name>
+    <category>Посуда</category>
+    <brand>TeaArt</brand>
+    <weight unit="pcs">12</weight>
+    <package_size>1</package_size>
+    <keywords>чай сервиз tea set xfqd crfxf teaart посуда сервиз фарфор</keywords>
+    <description>Фарфоровый чайный сервиз на 12 предметов бренда TeaArt, включает чайник, чашки и блюдца.</description>
+    <price currency="RUB">3590.00</price>
+    <image_url>https://example.com/p/P1003.jpg</image_url>
+  </product>
 </catalog>

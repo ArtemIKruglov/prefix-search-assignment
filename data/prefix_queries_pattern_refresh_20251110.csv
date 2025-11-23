@@ -1,0 +1,27 @@
+query,pattern_tag,intent_stub,notes
+ма,short_stop,Oil/butter keystroke,Most frequent 2-char Cyrillic stop on Samokat
+масл 10л,measurement_drop,Large-format vegetable oil,B2B style digits merged with unit
+масло сл,partial_word,Butter category,Stops before final syllable
+масл раст horeca,domain_keyword,HoReCa supply request,Industry keyword seen in ClickHouse logs
+йог гр,split_phrase,Greek yogurt,Word boundary removed mid-term
+йог гр нат,split_phrase_extended,Greek yogurt natural,Adds third token fragment
+греч кр,abbr_category,Buckwheat groats,Bare consonant cluster; common in Dixy feed
+греч не,semantic_ambiguity,Buckwheat noodles vs yogurt,Helps test disambiguation logic
+bon pa,translit_brand,Bon Paris confectionery,Cyrillic brand typed in Latin
+fran сахар,translit_mix,Franzeluta sugar cookies,Latin+Russian mix
+холс,cyrillic_brand,Halls lozenges,Zero-hit regression we track
+хозяйст м,category_prefix,Household soap,Captures stemmed nouns
+крем д рук,abbr_multiword,Hand cream,Squeezed prepositions/words
+кар тоф,broken_spacing,Potato produce,Space inside word
+xfq,layout_error,Tea request,Keyboard layout swap (ч = x)
+xfqd crfxf,layout_phrase_error,Tea set request,Entire phrase mis-keyboarded
+adapter usb c,english_tech,Electronics adapter,Latin alphanumeric
+power bank 20,english_numeric,Power bank capacity,Number suffix as intent
+cat steril,english_petfood,Cat food sterilized,Sourced from Samokat/Dixy logs
+dog hypo,english_petfood,Dried hypoallergenic dog food,Shorter than real phrase
+diap night,english_hygiene,Night diapers,Common for zero-hits
+лампа led е27,mixed_alpha,Lighting SKU spec,Roman+Kirill letters plus socket
+мешки 120л,measurement_pack,Trash bags volume,Numeric prefix for packaging
+санпел,aggr_brand,San Pellegrino water,Harsh truncation of sparkling brand
+джин то,beverage_mix,Gin tonic cocktail,Needs partial matching on 2nd term
+riesling mos,foreign_region,Wine region prefix,Tests transliteration fallback
